@@ -1,0 +1,165 @@
+.left-component {
+    position: sticky;
+    top: 80px;
+    left: 0;
+    button {
+        border: none;
+        background: none;
+        color: #3d3d3d;
+    }
+    button.active {
+        font-weight: 600;
+    }
+    .inner-header {
+        margin: 10px 0;
+    }
+    .left-content {
+        font-size: 14px;
+        margin-left: 6px;
+        a {
+            text-decoration: none;
+            padding: 2px 0;
+            color: #3b3b3b;
+        }
+        a:hover {
+            border-bottom: 1px solid #3b3b3b;
+        }
+    }
+}
+.right-component {
+    position: sticky;
+    top: 80px;
+    left: 0;
+    .title-name {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .sub-line {
+        margin-top: 5px;
+        font-size: 14px;
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+        a:hover{
+            border-bottom: 1px solid #000000;
+        }
+    }
+    .price {
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .color-options {
+        margin-top: 5px;
+        .options {
+            float: left;
+            cursor: pointer;
+            margin-right: 10px;
+            .optionimage {
+                text-align: center;
+                img {
+                    width: 40px
+                }
+            }
+        }
+        .options.active {
+            .optiontitle {
+                font-weight: bold;
+            }
+            .optionimage {
+                border: 1px solid #000000;
+            }
+        }
+        .clear {
+            clear: both;
+        }
+    }
+    .size-options {
+        margin-top: 20px;
+        .size-title {
+            display: flex;
+            justify-content: space-between;
+            .size-t {
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+        .size-guide{
+            a{
+                text-decoration: none;
+                border-bottom: 1px solid #000000;
+                color: #000000;
+            }
+        }
+        .size-option-list {
+            display: flex;
+            flex-wrap: wrap;
+            .size-o {
+                width: 60px;
+                text-align: center;
+                padding: 5px 0;
+                margin: 5px;
+                border-radius: 18px;
+                font-size: 13px;
+                cursor: pointer;
+                border: 1px solid #E5E5E5;
+            }
+            .size-o.active {
+                border: 1px solid #000000;
+                background-color: #000000;
+                color: #ffffff;
+            }
+            .size-o.no-sel {
+                color: #E5E5E5;
+                cursor: no-drop;
+                .line {
+                    border-bottom: 1px solid #E5E5E5;
+                    width: 70%;
+                    transform: rotate(-25deg);
+                    transform-origin: top left;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .add-to-bg-container {
+        button {
+            margin: 20px 10px;
+            width: 100%;
+            border: none;
+            color: #ffffff;
+            padding: 10px 0;
+            border-radius: 27px;
+            font-size: 14px;
+            background: url('./../../../assets/images/arrow.png') no-repeat right 40px center;
+            background-size: 20px;
+            background-color: #000000;
+        }
+    }
+}
+
+.editor-notes {
+    text-align: center;
+    margin-top: 20px;
+    .editor-links {
+        a {
+            text-decoration: none;
+            color: #000000;
+            margin: 0 10px;
+            font-size: 13px;
+            border-bottom: 1px solid #000000;
+        }
+    }
+    .note-title {
+        margin-top: 6rem;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+.img-component {
+    img {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

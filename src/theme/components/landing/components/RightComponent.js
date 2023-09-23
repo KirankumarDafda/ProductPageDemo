@@ -19,13 +19,13 @@ export default function RightComponent() {
                         <div className={colorOption === 'option1' ? 'options active' : 'options'} onClick={()=>setColorOption('option1')}>
                             <div className='optiontitle'>Color</div>
                             <div className='optionimage'>
-                                <img src={Image1} atl="color" />
+                                <img src={Image1} alt="color" />
                             </div>
                         </div>
                         <div className={colorOption === 'option2' ? 'options active' : 'options'} onClick={()=>setColorOption('option2')}>
                             <div className='optiontitle'>Conchiglia</div>
                             <div className='optionimage'>
-                                <img src={Image2} atl="Conchiglia" />
+                                <img src={Image2} alt="Conchiglia" />
                             </div>
                         </div>
                         <div className='clear'></div>
